@@ -1,7 +1,7 @@
 "use strict";
 
 var async = require('async');
-var api = require('../lib')();
+var api = require('../lib').api();
 
 var sub;
 
