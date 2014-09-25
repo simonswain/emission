@@ -1,0 +1,34 @@
+{
+  "name": "emission",
+  "description": "Library to do Redis pubsub ",
+  "version": "0.0.1",
+  "homepage": "https://github.com/simonswain/emission",
+  "author": {
+    "name": "Simon Swain",
+    "email": "simon@simonswain.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/simonswain/emission.git"
+  },
+  "bugs": {
+    "url": "https://github.com/simonswain/emission/issues"
+  },
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "hiredis": "^0.1.17",
+    "redis": "^0.12.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "nodeunit": "^0.9.0"
+  }
+}
