@@ -1,6 +1,6 @@
 {
   "name": "emission",
-  "description": "Library for easy Redis PubSub",
+  "description": "Easy Redis PubSub",
   "version": "0.0.2",
   "homepage": "https://github.com/simonswain/emission",
   "author": {
