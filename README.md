@@ -36,7 +36,6 @@ var emission = require('emission')(opts);
 ### Listener
 
 ```javascript
-
 // create a subscriber with a handler and listen for messages matching
 // a topic (you can use * wildcards in your topic)
 
@@ -60,7 +59,8 @@ var subscriber = api.listener(
 );
 ```
 
-```// dynamically add a topic
+```
+// dynamically add a topic
 subscriber.sub('another-topic');
 
 // dynamically stop listening for a topic
