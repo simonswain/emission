@@ -82,6 +82,11 @@ subscriber.quit(done);
 emission.emit('my-topic', {foo: 'bar'});
 ```
 
+## Release History
+
+* 25/09/2014 0.0.0 Pre-alpha
+* 27/10/2014 0.0.2 Initial release
+
 ## License
 
 Copyright (c) 2014 Simon Swain
